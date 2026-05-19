@@ -1,0 +1,141 @@
+*{
+    Margin: 1;
+    Padding: 1;
+    Box-sizing: border-box;
+}
+
+Body{
+    Font-family: Arial, sans-serif;
+    background-color: cyan;
+}
+
+Header{
+    Background: #0d6efd;
+    Color: white;
+    Padding: 20px;
+    Text-align: center;
+}
+
+Nav{
+    Margin-top: 10px;
+}
+
+Nav a{
+    Color: white;
+    Text-decoration: none;
+    Margin: 10px;
+    Font-weight: bold;
+}
+
+Nav a:hover{
+    Color: yellow;
+}
+
+.hero{
+    Height: 80vh;
+    Display: flex;
+    Flex-direction: column;
+    Justify-content: center;
+    Align-items: center;
+    Text-align: center;
+    Padding: 20px;
+}
+
+.hero h2{
+    Font-size: 40px;
+    Margin-bottom: 20px;
+}
+
+.hero p{
+    Max-width: 700px;
+    Margin-bottom: 20px;
+}
+
+.btn{
+    Background: #0d6efd;
+    Color: white;
+    Padding: 12px 25px;
+    Text-decoration: none;
+    Border-radius: 5px;
+}
+
+.btn:hover{
+    Background: #084298;
+}
+
+.content{
+    Padding: 40px;
+}
+
+.content h2,
+.content h3{
+    Margin-bottom: 15px;
+}
+
+.content p,
+.content ul{
+    Margin-bottom: 20px;
+}
+
+.logo{
+    Width: 150px;
+    Margin-bottom: 20px;
+}
+
+.canvas{
+    Display: grid;
+    Grid-template-columns: repeat(3, 1fr);
+    Gap: 15px;
+    Padding: 40px;
+}
+
+.box{
+    Background: white;
+    Padding: 40px;
+    Border-radius: 10px;
+    Text-align: center;
+    Box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+Form{
+    Display: flex;
+    Flex-direction: column;
+}
+
+Form input,
+Form textarea{
+    Margin-bottom: 15px;
+    Padding: 12px;
+    Border: 1px solid black;
+    Border-radius: 5px;
+}
+
+Button{
+    Background: rgb(47, 128, 0);
+    Color: white;
+    Padding: 12px;
+    Border: none;
+    Cursor: pointer;
+}
+
+Button:hover{
+    Background: #084298;
+}
+
+Footer{
+    Background: black;
+    Color: white;
+    Text-align: center;
+    Padding: 20px;
+    Margin-top: 30px;
+}
+
+Footer a{
+    Color: white;
+    Margin: 10px;
+    Text-decoration: none;
+}
+
+Footer a:hover{
+    Color: yellow;
+}
